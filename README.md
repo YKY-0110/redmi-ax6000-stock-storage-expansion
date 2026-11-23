@@ -1,4 +1,4 @@
-# 红米 AX6000 原厂 1.0.67 合并 80 MiB /data（公开版）
+# 红米 AX6000（RB06）原厂固件扩容教程｜合并 mtd9 和 mtd10，创建 80 MiB `/data` 大分区
 
 适用于 RB06 原厂 1.0.67，已能用 root 登录 SSH，且 `ft_mode=0`。最终从 `mtd8` 启动小米系统，把原 `mtd9` 的 30 MiB 和 `mtd10` 的 50 MiB 合成新的 `overlay`。
 
